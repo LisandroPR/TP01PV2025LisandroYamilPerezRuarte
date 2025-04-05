@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Contactanos</h1>
     </header>
     <form>
-        <label for="nombre">Nombre y Apellido:</label><br>
+        <label for="nombre">Nombre:</label><br>
         <input type="text" name="Nombre" required><br><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" name="Apellido" required><br><br>
         <label for="email">Email:</label><br>
         <input type="email" name="email" required><br><br>
         <label for="mensaje">Mensaje:</label><br>
@@ -19,9 +25,17 @@
         <input type="submit" value="Enviar">
     </form>
     <footer>
+        <img id="escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Escudo_de_Madrid.svg/111px-Escudo_de_Madrid.svg.png" alt="Escudo de Madrid">
         <p>&copy; 2024 Madrid Turismo</p>
         <a href="index.html">Pagina principal</a>
         <a href="museos.html">Museos</a>
     </footer>
+    <script>
+        function mostrarDatos(){
+            let nombre = document.getElementsById("nombre").value;
+            let apellido = document.getElementsById("apellido").value;
+            alert("Nombre: " + nombre + "\nApellido: " + apellido);
+        }
+    </script>
 </body>
 </html>

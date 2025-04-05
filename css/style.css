@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    font-family: montserrat;
+}
+
+#img_p{
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+header{
+    background-color: #1e90ff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    color: #000000;
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li{
+    margin: 0 15px;
+    font-style: strong;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#info_imp{
+    background: #d6d4d4;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+h2{
+    color: #000000;
+    font-size: 36px;
+    padding: 30px 20px;
+}
+
+
+#info_imp p{
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+#cultura{
+    background: #1e90ff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+#cult {
+    background: #ffffff;
+}
+
+#cult p{
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+    margin: 20px;
+}
+
+#cult h3{
+    color: #000000;
+    font-size: 26px;
+    padding: 40px 40px 20px 40px;
+    margin: 20px;
+}
+
+.img_cultura{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    margin: 60px;
+
+}
+
+footer{
+    background-color: #1e90ff;
+    padding: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 15px;
+    font-family: montserrat;
+    line-height: 1,6px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 15px;
+}

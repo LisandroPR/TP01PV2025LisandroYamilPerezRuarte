@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museos</title>
-    <style>
-        .img_museo {
-            width: 200px;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/museos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Museos de Madrid</h1>
-        <p>Madrid es una ciudad con una gran oferta cultural y artística, y sus museos son algunos de los más importantes del mundo.</p>
     </header>
     <nav>
-        <a href="index.html">Pagina principal</a>
-        <a href="contacto.html">Contacto</a>
+        <ul>
+            <li><a href="#museo_prado">Museo del Prado</a></li>
+            <li><a href="#museo_reina_sofia">Museo Reina Sofia</a></li>
+            <li><a href="#museo_thyssen">Museo Thyssen-Bornemisza</a></li>
+            <li><a href="#museo_sorolla">Museo Sorolla</a>
+            <li><a href="#museo_arte_contemporaneo">Museo Arqueológico Nacional</a></li>
+            <li><a href="index.html">Pagina principal</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
     <article>
-        <h2>Museos</h2>
-        <ul>
-            <li>
+        <ul class="museos">
+            <li id="museo_prado">
                 <a href="https://www.museodelprado.es/" target="_blank" title="Pagina oficial">Museo del Prado</a>
                 <p>
                     Es uno de los museos más famosos y prestigiosos del mundo, dedicado principalmente al arte europeo desde el siglo XII hasta principios del XIX.
@@ -31,28 +34,28 @@
                 </p>
                 <img class="img_museo" src="https://imgcdn.bokun.tools/307c67f3-fcd9-4d32-86a0-546a2a43f975.jpeg?1623188688" alt="Museo del Prado">
             </li>
-            <li>
+            <li id="museo_reina_sofia">
                 <a href="https://www.museoreinasofia.es/" target="_blank" title="Pagina oficial">Museo Reina Sofia</a>
                 <p>
                     Este museo de arte contemporáneo alberga una de las obras más importantes de la pintura del siglo XX: Guernica de Pablo Picasso. También cuenta con una rica colección de arte moderno y contemporáneo de artistas como Salvador Dalí, Joan Miró, Juan Gris, y muchos otros.
                 </p>
                 <img class="img_museo" src="https://www.headout.com/blog/wp-content/uploads/2018/11/Reina-Sofia-1.jpg" alt="Museo Reina Sofía">
             </li>
-            <li>
+            <li id="museo_thyssen">
                 <a href="https://www.museothyssen.org/" target="_blank" title="Pagina oficial">Museo Thyssen-Bornemisza</a>
                 <p>
                     Este museo alberga una de las colecciones privadas de arte más importantes del mundo, con obras que abarcan desde el Renacimiento hasta el arte contemporáneo. La colección incluye obras de artistas como Van Gogh, Monet, Rembrandt y muchos otros.
                 </p>
                 <img class="img_museo" src="https://arquitecturaviva.com/assets/uploads/obras/45901/av_imagen.webp?h=1a10fb3f" alt="Museo Thyssen-Bornemisza">
             </li>
-            <li>
+            <li id="museo_sorolla">
                 <a href="https://www.cultura.gob.es/msorolla/en/inicio.html" target="_blank" title="Pagina oficial">Museo Sorolla</a>
                 <p>
                     Este museo está dedicado a la obra del pintor español Joaquín Sorolla, conocido por sus paisajes y retratos luminosos. El museo se encuentra en la casa del artista y alberga una colección de más de 2000 obras, así como su estudio y jardín.
                 </p>
                 <img class="img_museo" src="https://a.cdn-hotels.com/gdcs/production104/d1792/a33add31-2026-484f-ac24-ed2eb298f0b0.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Museo Sorolla" title="Pagina oficial">
             </li>
-            <li>
+            <li id="museo_arte_contemporaneo">
                 <a href="https://www.man.es/man/home.html" target="_blank" title="Pagina oficial">Museo Arqueológico Nacional</a>
                 <p>
                     Este museo alberga una de las colecciones más importantes de arte y arqueología de España, con objetos que van desde la prehistoria hasta la época medieval. La colección incluye esculturas, cerámicas, monedas y otros objetos de gran valor histórico.
